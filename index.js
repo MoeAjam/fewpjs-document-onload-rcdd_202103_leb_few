@@ -1,4 +1,5 @@
 // Your code goes here
 document.addEventListener("DOMContentLoaded", function() {
-  console.log("The DOM has loaded");
+  txt = document.querySelector("#text");
+  txt.textContent = "This is really cool!";
 });
